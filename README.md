@@ -1,6 +1,6 @@
-=================================================================================================
+==========
 PROBLEM STATEMENT
-===========================================================================================
+==========
 Create a simple device driver (character device) for the current compiled kernel and test
 it with your sample application.
 
@@ -12,9 +12,9 @@ it with your sample application.
 
 
 
-========================================================================================================================== 
+========== 
 EXECUTION OF CHARACTER DEVICE DRIVER
-==========================================================================================================================
+==========
 1) ebbchar.c 
 
 This C file contains the code of a CHARACTER DEVICE DRIVER.
@@ -28,9 +28,9 @@ such as I/O control (ioctl) commands, memory mapping, and device polling.
 This C file contains the code for verification of the driver whether it is running or not and also for checking the functionality of the driver.
 
 
-============================================================================================================================
+==========
  MAKEFILE 
-============================================================================================================================
+==========
 1) Makefile
 
 This is the makefile for our character device driver. This is responsible for building objects, it is our present working 
@@ -47,9 +47,9 @@ clean:
 This tells there is a object in the directory named ebbchar.o and obj-m tells that this object should be built as a 
 module.
 
-============================================================================================================================= 
+========== 
 COMMANDS THAT ARE FOLLOWED 
-=============================================================================================================================
+==========
 
 --> Makesure that the terminal is in the correct directory where the source code and makefile are present.
 
