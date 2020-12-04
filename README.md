@@ -1,4 +1,7 @@
-PROBLEM STATEMENT: Create a simple device driver (character device) for the current compiled kernel and test
+=================================================================================================
+PROBLEM STATEMENT
+===========================================================================================
+Create a simple device driver (character device) for the current compiled kernel and test
 it with your sample application.
 
 
@@ -9,7 +12,7 @@ it with your sample application.
 
 
 
-==========================================================================================================================
+========================================================================================================================== 
 EXECUTION OF CHARACTER DEVICE DRIVER
 ==========================================================================================================================
 1) ebbchar.c 
@@ -44,8 +47,8 @@ clean:
 This tells there is a object in the directory named ebbchar.o and obj-m tells that this object should be built as a 
 module.
 
-=============================================================================================================================
- COMMANDS THAT ARE FOLLOWED
+============================================================================================================================= 
+COMMANDS THAT ARE FOLLOWED 
 =============================================================================================================================
 
 --> Makesure that the terminal is in the correct directory where the source code and makefile are present.
